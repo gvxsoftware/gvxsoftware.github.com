@@ -9,12 +9,25 @@
     <link href="assets/css/bootstrap.min.css"    rel="stylesheet">
     <link href="assets/css/focus.css"            rel="stylesheet"> 
     <link href="assets/css/focus-responsive.css" rel="stylesheet">
-    <link href="assets/css/pages/homepage.css"   rel="stylesheet">    
+    <link href="assets/css/homepage.css"   rel="stylesheet">    
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+      #service-description {
+        text-align: center;
+      }
+      div.service-item h3 {
+        font-size: 15px;
+      }
+
+      div.service-item p {
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
     <div id="wrapper" class="clearfix">
@@ -23,6 +36,7 @@
           <img src="assets/img/gvx.png"/>
         </div> <!-- /container -->
       </div> <!-- /header -->	
+
       <div id="nav" class="clearfix">
         <div class="container">
           <ul id="main-nav">
@@ -118,38 +132,36 @@
           <hr class="row-divider" />
           <div class="row divider service-container">
             <div class="grid-3">
-              <h2><span class="slash">//</span> Our Services</h2>
-              <p>Maecenas a mi nibh, eu euismod orci. Vivamus viverra lacus vitae.</p>
-              
-              <a href="javascript:;" class="btn btn-small btn-warning">More Services</a>
+              <h2><span class="slash">//</span>O que fazemos ?</h2>
+              <p id="service-description">Utilizamos técnicas de desenvolvimento ágil para atender melhor você e o seu negócio.</p>
             </div>
             <div class="grid-3">
               <div class="service-item">
                 <h3>
-                  <i class="icon-tint"></i> 
-                  Website Design
+                  <i class="icon-globe"></i> 
+                  Sistemas Web
                 </h3> <!-- /service-icon -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p>Criamos sistemas personalizados que atendem as necessidades do seu negócio, colocando em prática conceitos de desenvolvimento ágil, versionamento de código, cloud plataform, etc...</p>
                 <p><a href="javascript:;" class="">Learn More »</a></p>
               </div> <!-- /service -->
             </div>
             <div class="grid-3">
               <div class="service-item">
                 <h3>
-                  <i class="icon-map-marker"></i>		
-                  Mobile Development
+                  <i class="icon-shopping-cart"></i>		
+                  Loja Virual
                 </h3> <!-- /service-icon -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p>Colocamos em pouco tempo sua loja on-line que poderá ser acessada de qualquer lugar do mundo, 24 horas por dia e 7 dias por semana !</p>
                 <p><a href="javascript:;" class="">Learn More »</a></p>
               </div>				
             </div>
             <div class="grid-3">
               <div class="service-item">
                 <h3>
-                  <i class="icon-cogs"></i> 
-                  Web Development
+                  <i class="icon-certificate"></i> 
+                  Consultoria
                 </h3> <!-- /service-icon -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p>Oferecemos treinamento in-company e aulas particulares das tecnologias que usamos e dominamos: Ruby On Rails, Backbone.JS, CSS e HTML5.</p>
                 <p><a href="javascript:;" class="">Learn More »</a></p>
               </div>			
             </div>
@@ -236,6 +248,7 @@
           </div> <!-- /row -->
         </div> <!-- /container -->
       </div> <!-- /content -->
+
       <div id="footer">
         <div class="container">
           <div class="row">
@@ -276,6 +289,7 @@
           </div> <!-- /row -->
         </div> <!-- /container -->
       </div> <!-- /footer -->
+
       <div id="copyright">
         <div class="container">
           <div class="row">
@@ -288,7 +302,8 @@
           </div> <!-- /row -->
         </div> <!-- /container -->
       </div> <!-- /copyright -->
-    </div> <!-- /wrapper -->
+    </div>
+
     <script src="assets/js/jquery-1.7.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/focus.js"></script>
